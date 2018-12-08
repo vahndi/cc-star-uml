@@ -1,0 +1,24 @@
+{
+  "menu": [
+    {
+      "id": "tools",
+      "submenu": [
+        {
+          "label": "{{cookiecutter.project_title}}",
+          "id": "tools.{{cookiecutter.repo_name}}",
+          "submenu": [
+            {
+              "label": "Command Group 1",
+              "id": "tools.{{cookiecutter.repo_name}}.command-group-1",
+              "submenu": [
+                {
+                  "label": "Hello World",
+                  "id": "tools.{{cookiecutter.repo_name}}.command-group-1.helloWorld",
+                  "command": "{{cookiecutter.repo_name}}:command-group-1.hello-world"
+                }
+              ]
+            }]
+        }]
+    }
+  ]
+}

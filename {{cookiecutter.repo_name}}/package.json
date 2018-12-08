@@ -1,0 +1,22 @@
+{
+    "name": "{{cookiecutter.repo_name}}",
+    "title": "{{cookiecutter.project_title}}",
+    "description": "{{cookiecutter.description}}",
+    "homepage": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}",
+    "version": "{{cookiecutter.version}}",
+    "author": {
+        "name": "{{cookiecutter.author_name}}",
+        "email": "{{cookiecutter.author_emal}}",
+        "url": "https://github.com/{{cookiecutter.github_username}}"
+    },
+    "license": "MIT",
+    "engines": {
+        "staruml": ">=2.0.0"
+    },
+    "dependencies": {
+        "eslint": "^5.7.0",
+        "jquery": "^3.3.1",
+        "jsdoc": "^3.5.5",
+        "require": "^2.4.20"
+    }
+}

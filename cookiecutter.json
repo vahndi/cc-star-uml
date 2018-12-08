@@ -1,0 +1,9 @@
+{
+    "repo_name": "my-staruml-plugin",
+    "project_title": "MyProjectTitle"
+    "github_username": "vahndi",
+    "description": "StarUML plugin for XXXX",
+    "version": "1.0.0",
+    "author_name": "MyName",
+    "author_email": "my.name@emailhost.com"
+}
